@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+#ingredient-suggestion {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#ingredient-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+#ingredient-options label {
+  background: #eee;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#ingredient-options input {
+  margin-right: 6px;
+}
+
+#suggestBtn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#suggestBtn:hover {
+  background: #0056b3;
+}
+
+#suggested-dishes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dish-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 250px;
+}
+
+.dish-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dish-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.dish-card li {
+  font-size: 14px;
+  color: #333;
+}
